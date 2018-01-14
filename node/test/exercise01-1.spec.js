@@ -1,9 +1,7 @@
 'use strict'
 
 const assert = require('assert')
-
 const myutil = require('../src/utils')
-
 const solution = require('../src/exercise01-1')
 
 describe('exercise 1.1', () => {

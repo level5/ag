@@ -1,5 +1,8 @@
 'use strict'
 
+/**
+ * 排序后很容易求出来
+ */
 exports.minDistance = function(arr) {
   assert(arr.length > 1)
   arr.sort()
@@ -11,6 +14,9 @@ exports.minDistance = function(arr) {
   return minDistance
 }
 
+/**
+ *  蛮力解决
+ */
 exports.minDistance2 = function(arr) {
   assert(arr.length > 1)
   let minDistance = Math.abs(arr[1] - arr[0])
@@ -25,6 +31,9 @@ exports.minDistance2 = function(arr) {
   return minDistance
 }
 
+/**
+ * 上一个蛮力解决有一半多余计算
+ */
 exports.minDistance3 = function(arr) {
   assert(arr.length > 1)
   let minDistance = Math.abs(arr[1] - arr[0])
