@@ -1,0 +1,7 @@
+{
+  "presets": [],
+  "plugins": [
+    "./src/co2async",
+    "syntax-object-rest-spread"
+  ]
+}
